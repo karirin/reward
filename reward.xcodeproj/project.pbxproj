@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261C17D22AA5D7DD00692B0A /* RewardListHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C17D12AA5D7DD00692B0A /* RewardListHistoryView.swift */; };
+		261C17D42AA5F8B900692B0A /* RewardRegistrationCopyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261C17D32AA5F8B900692B0A /* RewardRegistrationCopyView.swift */; };
+		26228EEC2B46CBE6009D59ED /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26228EEB2B46CBE6009D59ED /* HelpView.swift */; };
+		2651539D2A93A46B0003B34E /* rewardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651539C2A93A46B0003B34E /* rewardApp.swift */; };
+		2651539F2A93A46B0003B34E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651539E2A93A46B0003B34E /* ContentView.swift */; };
+		265153A12A93A46D0003B34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265153A02A93A46D0003B34E /* Assets.xcassets */; };
+		265153A42A93A46D0003B34E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265153A32A93A46D0003B34E /* Preview Assets.xcassets */; };
+		265153AB2A93A6C90003B34E /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265153AA2A93A6C90003B34E /* AuthManager.swift */; };
+		265153AD2A93ACFF0003B34E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 265153AC2A93ACFE0003B34E /* GoogleService-Info.plist */; };
+		265153AF2A93B3910003B34E /* RewardRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265153AE2A93B3910003B34E /* RewardRegistrationView.swift */; };
+		265153B12A93BA110003B34E /* RewardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265153B02A93BA110003B34E /* RewardListView.swift */; };
+		265153B32A93BCD00003B34E /* EventKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265153B22A93BCD00003B34E /* EventKit.swift */; };
+		265153B52A93C3D20003B34E /* RewardCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265153B42A93C3D20003B34E /* RewardCalendarView.swift */; };
+		268FE9EB2A9F9E0B008856B2 /* RewardRegistrationKeywordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FE9EA2A9F9E0B008856B2 /* RewardRegistrationKeywordView.swift */; };
+		268FE9EF2AA0E32A008856B2 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FE9EC2AA0E329008856B2 /* TermsOfServiceView.swift */; };
+		268FE9F02AA0E32A008856B2 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FE9ED2AA0E329008856B2 /* SettingView.swift */; };
+		268FE9F12AA0E32A008856B2 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268FE9EE2AA0E32A008856B2 /* PrivacyView.swift */; };
+		26A3F94E2A99ADE3005C7C07 /* RewardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A3F94D2A99ADE3005C7C07 /* RewardDetailView.swift */; };
+		26A62FAA2A9CDB3F0009EBD4 /* RewardKeywordRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A62FA92A9CDB3F0009EBD4 /* RewardKeywordRegistrationView.swift */; };
+		26A6E5FD2A9642DF00B6A301 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6E5FC2A9642DF00B6A301 /* TopView.swift */; };
+		26A6E5FF2A97511A00B6A301 /* RewardKeywordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A6E5FE2A97511A00B6A301 /* RewardKeywordView.swift */; };
+		26E62DFB2B46EE30002B05D9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E62DFA2B46EE30002B05D9 /* LoadingView.swift */; };
+		26E62DFD2B4701FD002B05D9 /* RewardMouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E62DFC2B4701FC002B05D9 /* RewardMouthView.swift */; };
+		5E402EC978FF935CFAD9CB9E /* Pods_reward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA1F5793422ACE078FF7288 /* Pods_reward.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BFF04EE40C42CDCF2E0C12B /* Pods-reward.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reward.debug.xcconfig"; path = "Target Support Files/Pods-reward/Pods-reward.debug.xcconfig"; sourceTree = "<group>"; };
+		1DA1F5793422ACE078FF7288 /* Pods_reward.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reward.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		261C17D12AA5D7DD00692B0A /* RewardListHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardListHistoryView.swift; sourceTree = "<group>"; };
+		261C17D32AA5F8B900692B0A /* RewardRegistrationCopyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRegistrationCopyView.swift; sourceTree = "<group>"; };
+		26228EEB2B46CBE6009D59ED /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		265153992A93A46B0003B34E /* reward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reward.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2651539C2A93A46B0003B34E /* rewardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewardApp.swift; sourceTree = "<group>"; };
+		2651539E2A93A46B0003B34E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		265153A02A93A46D0003B34E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		265153A32A93A46D0003B34E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		265153AA2A93A6C90003B34E /* AuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		265153AC2A93ACFE0003B34E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		265153AE2A93B3910003B34E /* RewardRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRegistrationView.swift; sourceTree = "<group>"; };
+		265153B02A93BA110003B34E /* RewardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardListView.swift; sourceTree = "<group>"; };
+		265153B22A93BCD00003B34E /* EventKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKit.swift; sourceTree = "<group>"; };
+		265153B42A93C3D20003B34E /* RewardCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardCalendarView.swift; sourceTree = "<group>"; };
+		268FE9EA2A9F9E0B008856B2 /* RewardRegistrationKeywordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardRegistrationKeywordView.swift; sourceTree = "<group>"; };
+		268FE9EC2AA0E329008856B2 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		268FE9ED2AA0E329008856B2 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		268FE9EE2AA0E32A008856B2 /* PrivacyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		26A3F94D2A99ADE3005C7C07 /* RewardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardDetailView.swift; sourceTree = "<group>"; };
+		26A62FA92A9CDB3F0009EBD4 /* RewardKeywordRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardKeywordRegistrationView.swift; sourceTree = "<group>"; };
+		26A6E5FC2A9642DF00B6A301 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		26A6E5FE2A97511A00B6A301 /* RewardKeywordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardKeywordView.swift; sourceTree = "<group>"; };
+		26E62DFA2B46EE30002B05D9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		26E62DFC2B4701FC002B05D9 /* RewardMouthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardMouthView.swift; sourceTree = "<group>"; };
+		A75D6B72B7D0DC00284BA6C3 /* Pods-reward.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reward.release.xcconfig"; path = "Target Support Files/Pods-reward/Pods-reward.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265153962A93A46B0003B34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E402EC978FF935CFAD9CB9E /* Pods_reward.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076E0F6568F13F637D8FE162 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DA1F5793422ACE078FF7288 /* Pods_reward.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		265153902A93A46B0003B34E = {
+			isa = PBXGroup;
+			children = (
+				2651539B2A93A46B0003B34E /* reward */,
+				2651539A2A93A46B0003B34E /* Products */,
+				FBD026592C9462A9660313E8 /* Pods */,
+				076E0F6568F13F637D8FE162 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2651539A2A93A46B0003B34E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				265153992A93A46B0003B34E /* reward.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2651539B2A93A46B0003B34E /* reward */ = {
+			isa = PBXGroup;
+			children = (
+				2651539C2A93A46B0003B34E /* rewardApp.swift */,
+				265153B22A93BCD00003B34E /* EventKit.swift */,
+				2651539E2A93A46B0003B34E /* ContentView.swift */,
+				265153B42A93C3D20003B34E /* RewardCalendarView.swift */,
+				265153B02A93BA110003B34E /* RewardListView.swift */,
+				261C17D12AA5D7DD00692B0A /* RewardListHistoryView.swift */,
+				26E62DFC2B4701FC002B05D9 /* RewardMouthView.swift */,
+				26A6E5FE2A97511A00B6A301 /* RewardKeywordView.swift */,
+				26A62FA92A9CDB3F0009EBD4 /* RewardKeywordRegistrationView.swift */,
+				26A3F94D2A99ADE3005C7C07 /* RewardDetailView.swift */,
+				265153AE2A93B3910003B34E /* RewardRegistrationView.swift */,
+				268FE9EA2A9F9E0B008856B2 /* RewardRegistrationKeywordView.swift */,
+				261C17D32AA5F8B900692B0A /* RewardRegistrationCopyView.swift */,
+				26A6E5FC2A9642DF00B6A301 /* TopView.swift */,
+				26228EEB2B46CBE6009D59ED /* HelpView.swift */,
+				265153AA2A93A6C90003B34E /* AuthManager.swift */,
+				268FE9EE2AA0E32A008856B2 /* PrivacyView.swift */,
+				268FE9ED2AA0E329008856B2 /* SettingView.swift */,
+				26E62DFA2B46EE30002B05D9 /* LoadingView.swift */,
+				268FE9EC2AA0E329008856B2 /* TermsOfServiceView.swift */,
+				265153A02A93A46D0003B34E /* Assets.xcassets */,
+				265153AC2A93ACFE0003B34E /* GoogleService-Info.plist */,
+				265153A22A93A46D0003B34E /* Preview Content */,
+			);
+			path = reward;
+			sourceTree = "<group>";
+		};
+		265153A22A93A46D0003B34E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				265153A32A93A46D0003B34E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBD026592C9462A9660313E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BFF04EE40C42CDCF2E0C12B /* Pods-reward.debug.xcconfig */,
+				A75D6B72B7D0DC00284BA6C3 /* Pods-reward.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265153982A93A46B0003B34E /* reward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265153A72A93A46D0003B34E /* Build configuration list for PBXNativeTarget "reward" */;
+			buildPhases = (
+				B1BFABAB16006B68EEADF284 /* [CP] Check Pods Manifest.lock */,
+				265153952A93A46B0003B34E /* Sources */,
+				265153962A93A46B0003B34E /* Frameworks */,
+				265153972A93A46B0003B34E /* Resources */,
+				60B29028AE6A7CB68C88F6A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reward;
+			productName = reward;
+			productReference = 265153992A93A46B0003B34E /* reward.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265153912A93A46B0003B34E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					265153982A93A46B0003B34E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 265153942A93A46B0003B34E /* Build configuration list for PBXProject "reward" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265153902A93A46B0003B34E;
+			productRefGroup = 2651539A2A93A46B0003B34E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265153982A93A46B0003B34E /* reward */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265153972A93A46B0003B34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265153A42A93A46D0003B34E /* Preview Assets.xcassets in Resources */,
+				265153AD2A93ACFF0003B34E /* GoogleService-Info.plist in Resources */,
+				265153A12A93A46D0003B34E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60B29028AE6A7CB68C88F6A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reward/Pods-reward-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reward/Pods-reward-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reward/Pods-reward-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1BFABAB16006B68EEADF284 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reward-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265153952A93A46B0003B34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2651539F2A93A46B0003B34E /* ContentView.swift in Sources */,
+				265153B12A93BA110003B34E /* RewardListView.swift in Sources */,
+				265153AB2A93A6C90003B34E /* AuthManager.swift in Sources */,
+				268FE9F02AA0E32A008856B2 /* SettingView.swift in Sources */,
+				261C17D22AA5D7DD00692B0A /* RewardListHistoryView.swift in Sources */,
+				265153AF2A93B3910003B34E /* RewardRegistrationView.swift in Sources */,
+				26A62FAA2A9CDB3F0009EBD4 /* RewardKeywordRegistrationView.swift in Sources */,
+				261C17D42AA5F8B900692B0A /* RewardRegistrationCopyView.swift in Sources */,
+				26A3F94E2A99ADE3005C7C07 /* RewardDetailView.swift in Sources */,
+				268FE9EF2AA0E32A008856B2 /* TermsOfServiceView.swift in Sources */,
+				268FE9EB2A9F9E0B008856B2 /* RewardRegistrationKeywordView.swift in Sources */,
+				26A6E5FF2A97511A00B6A301 /* RewardKeywordView.swift in Sources */,
+				2651539D2A93A46B0003B34E /* rewardApp.swift in Sources */,
+				26E62DFD2B4701FD002B05D9 /* RewardMouthView.swift in Sources */,
+				26228EEC2B46CBE6009D59ED /* HelpView.swift in Sources */,
+				265153B32A93BCD00003B34E /* EventKit.swift in Sources */,
+				26A6E5FD2A9642DF00B6A301 /* TopView.swift in Sources */,
+				265153B52A93C3D20003B34E /* RewardCalendarView.swift in Sources */,
+				26E62DFB2B46EE30002B05D9 /* LoadingView.swift in Sources */,
+				268FE9F12AA0E32A008856B2 /* PrivacyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		265153A52A93A46D0003B34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		265153A62A93A46D0003B34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		265153A82A93A46D0003B34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BFF04EE40C42CDCF2E0C12B /* Pods-reward.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"reward/Preview Content\"";
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "カレンダーにイベントを追加するためのアクセス許可が必要です。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.reward";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		265153A92A93A46D0003B34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75D6B72B7D0DC00284BA6C3 /* Pods-reward.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"reward/Preview Content\"";
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "カレンダーにイベントを追加するためのアクセス許可が必要です。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.reward";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265153942A93A46B0003B34E /* Build configuration list for PBXProject "reward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265153A52A93A46D0003B34E /* Debug */,
+				265153A62A93A46D0003B34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265153A72A93A46D0003B34E /* Build configuration list for PBXNativeTarget "reward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265153A82A93A46D0003B34E /* Debug */,
+				265153A92A93A46D0003B34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 265153912A93A46B0003B34E /* Project object */;
+}
